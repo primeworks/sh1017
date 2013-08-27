@@ -1,0 +1,26 @@
+
+
+
+
+
+
+html, body, .form-radio, .form-checkbox, .form-file, .form-select, select, .form-text, input, .form-textarea, textarea  { font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "DejaVu Sans", Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6  { font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "DejaVu Sans", Arial, sans-serif; }
+
+#header { height: 100px; }
+#wrapper, #footer { width: 960px; }
+@media only screen and (min-device-width: 800px) {
+	#wrapper { font-size: 12px; }
+}
+@media only screen and (max-device-width: 640px) {
+#wrapper { font-size: 2em; }
+.right #main {
+  width: 100%;
+}
+#header #site-name {
+  font-size: 1.7em;
+}
+.right #sidebar-right {
+  width: 100%;
+}
+}

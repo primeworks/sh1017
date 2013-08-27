@@ -1,0 +1,69 @@
+name = 10:17
+description = Responsive Sub-theme of Sky created for Storehouse 10:17
+version = VERSION
+core = 6.x
+engine = phptemplate
+base theme = sky
+
+
+
+; REGIONS
+; -----------------------------------------------------------------------------
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[contenttop] = Content top
+regions[contentbottom] = Content bottom
+regions[contentfooter] = Content footer
+
+; STYLESHEETS
+; -----------------------------------------------------------------------------
+stylesheets[all][] = core.css
+stylesheets[all][] = mobile.css
+stylesheets[all][] = responsive.smartphone.portrait.css
+
+; SCRIPTS
+; -----------------------------------------------------------------------------
+scripts[] = scripts/hoverIntent.js
+scripts[] = scripts/superfish.js
+scripts[] = scripts/sky.js
+
+; FEATURES
+; -----------------------------------------------------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = mission
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+
+; THEME SETTINGS
+; -----------------------------------------------------------------------------
+settings[sky_background] = ''
+settings[sky_background_header] = ''
+settings[sky_breadcrumbs] = 0
+settings[sky_breadcrumbs_sep] = &raquo;
+settings[sky_links] = ''
+settings[sky_links_active] = ''
+settings[sky_links_hover] =  ''
+settings[sky_links_visited] = ''
+settings[sky_font] = lucida
+settings[sky_font_headings] = lucida
+settings[sky_font_size] = 12px
+settings[sky_header_height] = 100px
+settings[sky_layout] = fixed_960
+settings[sky_custom_layout] = ''
+settings[sky_nav_alignment] = center
+settings[sky_sub_navigation_width] = 15em
+
+version = "6.x-1.0"
+core = "6.x"
+project = "Storehouse10:17"
+
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-1.2"
+core = "6.x"
+project = "journalcrunch"
+datestamp = "1296333180"
+

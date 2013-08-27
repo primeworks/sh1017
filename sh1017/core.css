@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#logo a {
+	border-left: none;
+}
+#logo {
+        width: 360px;
+      }
+#content .node-front.sticky  {
+    clear:none;
+}
+.content p {
+	color: #333 !important;
+	}
+.node-front.sticky .image-attach-teaser {
+  margin-left: -18px;
+  float:none;
+}
+.node-front .image-attach-teaser {
+  margin-left: -20px;
+  float:none;
+}
+#content .nodeInner p {
+	margin: 0 0px 1.5em;
+	/* padding-right: 10px; */
+	width: 418px;
+}
